@@ -53,12 +53,81 @@
                 </li>
             </ul>
         </address>
+        
+    <!---  <label for="mobal-toggle"></label>  -->
         <button class="burger" type="button" data-menu-open>
             <svg class="burger_icon" width="24" hidden="24">
                 <use href="/images/icons.svg#icon-burger"></use>
             </svg>
         </button>
         </div>
+<!--- <input lass="rewiew_button_" type="checkbox" id="mobal-toggle"> -->
+        
+        <!--- moob men -->
+            <div class="mobile_menu ">
+                <div class="rewiew_button_ww">
+                    
+                <!---   <label for="mobal-toggle"></label>-->
+                <button class="rewiew_button_" type="button">
+                    <svg class="rewiew_Vector_" width="8" height="8" viewBox="0 0 24 24">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </button>
+            </div>
+        <nav class=logo_italik_nav_>
+            <ul class="word_list_w">
+                <li class="logo_info_">
+                    <a href="./index.html" class="current word_listw">Studio</a>
+                </li>
+                <li class="logo_info">
+                    <a href="" class="word_listw">Portfolio</a>
+                </li>
+                <li class="logo_info_">
+                    <a href="" class="word_listw">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <address class="logo-address_">
+            <ul class="logo-address-list_">
+                <li>
+                    <a href="mailto:info@devstudio.com" class="logo-address-text_">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+110001111111" class="logo-address-text_">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
+        <ul class="section_three_sp">
+            <li class="section_three_swg">
+                <a class="section_three_pos" href="#">
+                    <svg class="section_three_swg_sprait" width="16" height="16" viewBox="0 0 32 32">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="section_three_swg">
+                <a class="section_three_pos" href="#">
+                    <svg class="section_three_swg_sprait" width="16" height="16" viewBox="0 0 32 32">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="section_three_swg">
+                <a class="section_three_pos" href="#">
+                    <svg class="section_three_swg_sprait" width="16" height="16" viewBox="0 0 32 32">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="section_three_swg">
+                <a class="section_three_pos" href="#">
+                    <svg class="section_three_swg_sprait" width="16" height="16" viewBox="0 0 32 32">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+            </div>
     </header>
     <main>
             <!--section 1 -->
@@ -142,7 +211,9 @@
                 </h2>
                 <ul class="section_three_color_">
                     <li class="section_three_color">
-                        <img src="./images/img.jpg" alt="Mark Guerrero">
+                        <img 
+                        srcset="./images/img-2x1.jpg 2x"
+                        src="./images/img.jpg" alt="Mark Guerrero">
                     <div class="section_three_info">
                         <h3 class="titl_logo">Mark Guerrero</h3>
                         <p class="titl_logo_text">Product Designer</p>
@@ -179,7 +250,9 @@
                     </div>
                     </li>
                     <li class="section_three_color">
-                        <img src="./images/img(1).jpg" alt="Tom Ford" width="264" height="260">
+                        <img 
+                        srcset="./images/img-2x2.jpg 2x"
+                        src="./images/img(1).jpg" alt="Tom Ford" width="264" height="260">
                     <div class="section_three_info">
                         <h3 class="titl_logo">Tom Ford</h3>
                         <p class="titl_logo_text">Frontend Developer</p>
@@ -216,7 +289,9 @@
                     </div>
                     </li>
                     <li class="section_three_color">
-                        <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" height="260">
+                        <img 
+                        srcset="./images/img-2x3.jpg 2x"
+                        src="./images/img(2).jpg" alt="Camila Garcia" width="264" height="260">
                     <div class="section_three_info">
                         <h3 class="titl_logo">Camila Garcia</h3>
                         <p class="titl_logo_text">Marketing</p>
@@ -253,7 +328,9 @@
                     </div>
                     </li>
                     <li class="section_three_color">
-                        <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" height="260">
+                        <img 
+                        srcset="./images/img-2x4.jpg 2x"
+                        src="./images/img(3).jpg" alt="Daniel Wilson" width="264" height="260">
                     <div class="section_three_info">
                         <h3 class="titl_logo">Daniel Wilson</h3>
                         <p class="titl_logo_text">UI Designer</p>
@@ -302,10 +379,17 @@
                 </h2>
                 <ul class="section_four_titl_img">
                     <li class=section_four_titl_lii>
-                    <div class="section_four_img">  
-                        <img src="./images/section4-1.jpg" alt="Banking App" width="360" height="300"/>
-                        <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
-                        Cloud Storage App</p>
+                    <div class="section_four_img"> 
+                        <picture>
+                            <source srcset="./images/section4-1.jpg, ./images/img-1-2x.jpg 1x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-1.jpg 1x, ./images/img-tab-1-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-1.jpg 1x, ./images/img-tel-1-2x.jpg 2x" media="(max-width: 767px)" />
+                            <img src="./images/section4-1.jpg" alt="Banking App" width="360" />
+                            <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
+                            App · Exotic Fruit Ecommerce App ·
+                            Cloud Storage App</p>
+                        </picture>
+                        
                     </div>
                     <div class="section_four_titl_infio">   
                         <h3 class="section_four_titl_logo">
@@ -318,9 +402,15 @@
                     </li>
                     <li class="section_four_titl_lii">
                     <div class="section_four_img">
-                        <img src="./images/section4-2.jpg" alt="Cashless Payment" width="360" height="300" />
+                        <picture>
+                            <source srcset="./images/section4-2.jpg, ./images/img-2-2x.jpg 2x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-2.jpg 1x, ./images/img-tab-2-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-2.jpg 1x, ./images/img-tel-2-2x.jpg 2x" media="(max-width: 767px)" />
+                        <img 
+                        src="./images/section4-2.jpg" alt="Cashless Payment" width="360" />
                         <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
+                        </picture>
                         </div>
                     <div class="section_four_titl_infio">   
                         <h3 class="section_four_titl_logo">
@@ -333,9 +423,15 @@
                     </li>
                     <li class="section_four_titl_lii">
                     <div class="section_four_img">
-                        <img src="./images/section4-3.jpg" alt="Meditation App" width="360" height="300" />
+                        <picture>
+                            <source srcset="./images/section4-3.jpg, ./images/img-3-2x.jpg 2x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-3-2x.jpg 1x, ./images/img-tab-3-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-3-2x.jpg 1x, ./images/img-tel-3-2x.jpg 2x" media="(max-width: 767px)" />
+                        <img
+                        src="./images/section4-3.jpg" alt="Meditation App" width="360" />
                         <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
+                        </picture>
                     </div>
                     <div class="section_four_titl_infio">    
                         <h3 class="section_four_titl_logo">
@@ -348,9 +444,15 @@
                     </li>
                     <li class="section_four_titl_lii">
                     <div class="section_four_img">
-                        <img src="./images/section4-4.jpg" alt="Taxi Service" width="360" height="300" />
+                        <picture>
+                            <source srcset="./images/section4-4.jpg 1x, ./images/img-4-2x.jpg 2x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-4-2x.jpg 1x, ./images/img-tab-4-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-4-2x.jpg 1x, ./images/img-tel-4-2x.jpg 2x" media="(max-width: 767px)" />
+                            <img 
+                        src="./images/section4-4.jpg" alt="Taxi Service" width="360" />
                         <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
+                        </picture>
                     </div>
                     <div class="section_four_titl_infio">    
                         <h3 class="section_four_titl_logo">
@@ -363,9 +465,15 @@
                     </li>
                     <li class="section_four_titl_lii">
                     <div class="section_four_img">
-                        <img src="./images/section4-5.jpg" alt="Screen Illustrations" width="360" height="300" />
+                        <picture>
+                            <source srcset="./images/section4-5.jpg 1x, ./images/img-5-2x.jpg 2x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-5-2x.jpg 1x, ./images/img-tab-5-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-5-2x.jpg 1x, ./images/img-tel-5-2x.jpg 2x" media="(max-width: 767px)" />
+                            <img
+                        src="./images/section4-5.jpg" alt="Screen Illustrations" width="360" />
                         <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
+                        </picture>
                     </div>
                     <div class="section_four_titl_infio">    
                         <h3 class="section_four_titl_logo">
@@ -378,9 +486,15 @@
                     </li>
                     <li class="section_four_titl_lii">
                     <div class="section_four_img">
-                        <img src="./images/section4-6.jpg" alt="Online Courses" width="360" height="300" />
+                        <picture>
+                            <source srcset="./images/section4-6.jpg 1x, ./images/img-6-2x.jpg 2x" media="(min-width: 1200px)" />
+                            <source srcset="./images/img-tab-6-2x.jpg 1x, ./images/img-tab-6-2x.jpg 2x" media="(min-width: 768px)" />
+                            <source srcset="./images/img-tel-6-2x.jpg 1x, ./images/img-tel-6-2x.jpg 2x" media="(max-width: 767px)" />
+                        <img 
+                        src="./images/section4-6.jpg" alt="Online Courses" width="360" />
                         <p class="section_four_titl_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
+                        </picture>
                     </div>
                     <div class="section_four_titl_infio">    
                         <h3 class="section_four_titl_logo">
@@ -525,7 +639,7 @@
         </div>
 
     </div>
-<!--- -->
+<!--- 
     <div class="mobile_menu">
         <div class="rewiew_button_ww">
         <button class="rewiew_button_" type="button">
@@ -587,6 +701,6 @@
         </a>
     </li>
 </ul>
-    </div>
+    </div>-->
     </body>
     </html>
