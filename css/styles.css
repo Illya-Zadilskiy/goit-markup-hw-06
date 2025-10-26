@@ -878,6 +878,9 @@ body {
     max-width: 320px;
         padding: 16;
         margin: 0 auto;
+        display: flex;
+            flex-direction: column;
+            height: 100%;
 }
 
 .open_mobile_menu {
@@ -887,7 +890,6 @@ body {
 }
 
 .rewiew_button_ww {
-
 }
 
 
@@ -909,7 +911,7 @@ body {
 .logo_italik_nav_ {
     align-items: center;
     display: flex;
-    
+    margin-bottom: auto;
 }
 
 .word_list_w .word_listw::after {
@@ -925,7 +927,7 @@ body {
 
 .word_list_w {
     display: flex;
-    gap: 40px;
+    
     flex-direction: column;
     margin-right: 16px;
 }
@@ -964,7 +966,6 @@ body {
 
 .logo-address_ {
     font-style: normal;
-    margin-left: auto;
 }
 
 .logo-address-list_ {
@@ -1296,6 +1297,12 @@ margin: 0;
     max-width: 408px;
 }
 
+
+
+
+.mobile_menu {
+    display: none;
+}
     
 }
 
