@@ -130,7 +130,6 @@ body {
     max-width: 320px;
     background-color: #2e2f42;
     padding: 72px 0;
-    padding-top: 200px;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tel\ \(1\).jpg);
     background-repeat: no-repeat;
@@ -160,6 +159,7 @@ body {
 }
 
 .main_page_titl {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -316,6 +316,7 @@ body {
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
+    margin-top: 48px;
 }
 
 .section_three_swg {
@@ -489,7 +490,7 @@ body {
     text-transform: uppercase;
     display: inline-block;
     margin-top: 96px;
-    margin-left: 102px;
+    margin-left: 86px;
     
 }
 
@@ -520,7 +521,7 @@ body {
     color: #FFFFFF;
     margin-bottom: 16px;
     margin-top: 72px;
-    margin-left: 112px;
+    margin-left: 96px;
 }
 
 .section_footer_sp {
@@ -593,7 +594,7 @@ body {
 }
 
 .footer_subscribe_imput {
-    
+    min-width: 288px;
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -992,10 +993,6 @@ body {
     color: #404bbf;
 }
 
-.section_three_sp {
-    margin-top: 48px;
-    gap: 40px;
-}
 
 
 
@@ -1279,6 +1276,10 @@ margin: 0;
 .footer_subscribe_label {
     margin-top: 16px;
     margin-right: 24px;
+}
+
+.footer_subscribe_imput {
+    min-width: 264px;
 }
 
 .footer_button {
