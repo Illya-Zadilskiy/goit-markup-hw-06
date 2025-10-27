@@ -71,12 +71,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    
 }
 .logo_italik_nav {
     align-items: center;
     display: flex;
+    
+
+
+
 }
 .logo {
     color: #4d5ae5;
@@ -89,6 +92,7 @@ body {
     flex-grow: 1;
     padding: 16px 0;
     margin-right: 76px;
+
 }
 
 .logo_studio {
@@ -99,7 +103,16 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    
 }
+
+
+.current {
+    color: #404BBF;
+}
+
+
+
 .word_list_ {
     display: none;
 }
@@ -913,6 +926,11 @@ body {
     align-items: center;
     display: flex;
     margin-bottom: auto;
+
+
+
+    position: relative;
+    padding: 24px 0;
 }
 
 .word_list_w .word_listw::after {
@@ -961,7 +979,6 @@ body {
 
 .current {
     margin-top: 72px;
-    
     color: #404bbf;
 }
 
@@ -1147,6 +1164,7 @@ margin-bottom: 112px;
     margin: 0 auto;
     padding: 96px 16px;
 }
+
 .visually-hidden {
 gap: 8px;
 text-align: center;
@@ -1332,8 +1350,8 @@ margin: 0;
 
 .container_hed {
     max-width: 1158px;
+    padding: 0;
 }
-    
 
 .logo-address {
     font-style: normal;
