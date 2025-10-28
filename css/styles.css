@@ -1029,10 +1029,11 @@ body {
 
 .header_naw {
     padding: 0 16px;
+    max-height: 72px;
 }
     .container_hed {
     max-width: 768px;
-    max-height: 72px;
+    
     
     }
 
@@ -1064,11 +1065,16 @@ body {
 
     .word_list {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        color: #434455;
+        
     }
+
+.word_listfff {
+    color: #434455;
+}
+
         .word_list {
             
-            padding: 24px 0 25px 0;
+            padding: 24px 0 26px 0;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
