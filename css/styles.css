@@ -926,17 +926,6 @@ body {
     padding: 24px 0;
 }
 
-.word_list_w .word_listw::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
 .word_list_w {
     display: flex;
     
