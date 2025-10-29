@@ -211,9 +211,14 @@ body {
 
 
 .section_two_info {
+    max-width: 768px;
+    
+    margin: 0 auto;
+}
+
+.section_two_infoyy {
     max-width: 320px;
     padding: 96px 16px;
-    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -264,7 +269,7 @@ body {
 
 
 .section_three_background {
-    max-width: 320px;
+    max-width: 768px;
     margin: 0 auto;
     background-color: #F4F4FD;
     padding-top: 96px;
@@ -361,7 +366,7 @@ body {
 /* section 4 */
 
 .sectionfourtitlblok {
-    max-width: 320px;
+    max-width: 768px;
     margin: 0 auto;
     padding: 96px 16px;
 }
@@ -473,15 +478,17 @@ body {
 
         
 .footer {
-    max-width: 320px;
+    max-width: 768px;
     margin: 0 auto;
     background-color: #2e2f42;
-    padding: 96px 16px 0 16px;
+    
     }
 
 
 .footer_footer {
-    padding: 0;
+    max-width: 320px;
+    padding: 96px 16px 0 16px;
+    
 }
 
 .footer_titl {
@@ -1022,8 +1029,6 @@ body {
 }
     .container_hed {
     max-width: 768px;
-    
-    
     }
 
     .logo {
@@ -1115,9 +1120,14 @@ display: none;
           /* section 1 */
 
 .main_page {
-    max-width: 768px;
+    max-width: 1158px;
+    
     padding: 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab\ \(1\).jpg);
+}
+
+.hero {
+    max-width: 768px;
 }
 
 @media screen and (min-resolution: 2x),
@@ -1163,8 +1173,13 @@ margin-bottom: 112px;
             /* section 2 */
 
 .section_two_info {
-    max-width: 768px;
+    max-width: 1158px;
+    
     margin: 0 auto;
+}
+
+.section_two_infoyy {
+    max-width: 768px;
     padding: 96px 16px;
 }
 
@@ -1191,12 +1206,13 @@ text-align: center;
           /* section 3 */
 
 .section_three_background {
-    max-width: 768px;
-    padding: 96px 108px ;
+    max-width: 1158px;
+    
 }
 
-.container {
-padding: 0;
+.containertt {
+max-width: 768px;
+    padding: 96px 108px;
 }
 
 .section_three_color_  {
@@ -1219,6 +1235,11 @@ padding: 0;
             /* section 4 */
 
 .sectionfourtitlblok {
+    max-width: 1158px;
+    
+}
+
+.containeruu {
     max-width: 768px;
     padding: 96px 16px;
 }
@@ -1253,13 +1274,15 @@ padding: 0;
 
 
 .footer {
-    max-width: 768px;
+    max-width: 1158px;
+    
     min-height: 456px;
     padding: 0;
 }
 
 
 .footer_footer{
+    max-width: 768px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 padding: 96px 108px 0 108px;
@@ -1367,12 +1390,15 @@ padding: 0;
 
 
 .header_naw {
-    padding: 0 156px;
+    
+    max-width: 1840px;
+    margin: 0 auto;
 }
 
 .container_hed {
+    
     max-width: 1158px;
-    padding: 0;
+    padding: 0 156px;
 }
 
 .logo {
@@ -1410,8 +1436,13 @@ padding: 0;
           /* section 1 */
 
 .main_page {
-    max-width: 1158px;
+    max-width: 1840px;
+    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-jpg.jpg);
+}
+
+.hero {
+    max-width: 1158px;
 }
 
 @media screen and (min-resolution: 2x),
@@ -1442,6 +1473,11 @@ padding: 0;
 
 
 .section_two_info {
+    max-width: 1840px;
+    
+}
+
+.section_two_infoyy {
     max-width: 1158px;
     padding: 120px 16px;
 }
@@ -1487,6 +1523,11 @@ padding: 0;
          /* section 3 */
 
 .section_three_background {
+    max-width: 1840px;
+    
+}
+
+.containertt {
     max-width: 1158px;
     padding: 120px 13px;
 }
@@ -1520,6 +1561,11 @@ padding: 0 16px;
                  /* section 4 */
 
 .sectionfourtitlblok {
+    max-width: 1840px;
+    
+}
+
+.containeruu {
     max-width: 1158px;
     padding: 120px 0;
 }
@@ -1534,13 +1580,14 @@ padding: 0 16px;
 
 
 .footer {
-    max-width: 1158px; 
-    padding: 100px 16px;
+    max-width: 1840px;
+    
     min-height: 312px;
 }
 
 .footer_footer {
-    padding: 0;
+    max-width: 1158px; 
+    padding: 100px 16px;
     display: flex;
 }
 
