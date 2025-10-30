@@ -1550,6 +1550,8 @@ padding: 0;
 
 .section_two_infoyy {
     padding: 0;
+    min-width: 1128px;
+    min-height: 224px;
 }
 
 
@@ -1658,7 +1660,6 @@ padding: 0 16px;
 
 .footer {
     max-width: 1840px;
-    
     min-height: 312px;
 }
 
