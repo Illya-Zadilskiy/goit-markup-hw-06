@@ -1335,14 +1335,14 @@ max-width: 768px;
 
 .footer {
     max-width: 1158px;
-    
+    padding: 96px 0 96px 0;
     min-height: 456px;
 }
 
 
 .footer_footer{
-    max-width: 768px;
-    padding: 96px 0 96px 108px;
+    max-width: 500px;
+    padding: 0;
 }
 
 .footer_titl {
@@ -1664,8 +1664,8 @@ padding: 0 16px;
 }
 
 .footer_footer {
-    max-width: 1158px; 
-    padding: 100px 16px;
+    max-width: 1125px; 
+    padding: 100px 0;
     display: flex;
 }
 
