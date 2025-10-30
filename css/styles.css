@@ -1661,6 +1661,7 @@ padding: 0 16px;
 .footer {
     max-width: 1840px;
     min-height: 312px;
+    padding: 0;
 }
 
 .footer_footer {
